@@ -12,7 +12,7 @@ WEBCAM_ID = 0
 TARGET_FPS = 30
 
 # ==========================================
-# === DATA KALIBRASI FINAL ANDA ===
+# === DATA KALIBRASI FINAL ===
 # ==========================================
 
 # 1. LENGAN (1, 1, 1)
@@ -340,4 +340,5 @@ while cap.isOpened():
         break
 
 cap.release()
+
 cv2.destroyAllWindows()
